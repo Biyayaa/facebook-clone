@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <script src="https://kit.fontawesome.com/85310ecdcf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Raleway&family=Roboto:wght@300;500;700;900&display=swap');
+    </style>
+</head>
+
+
+<body>
+    <div class="body">
+        <div class="nav-bar container-fluid d-flex justify-content-between align-items-center position-fixed">
+            <div class="d-flex align-items-center justify-content-between w-100 position-relative">
+                <div class="toggle-div position-absolute">
+                    <button>
+                        <i class="fa-solid fa-bars toggle-icon"></i>
+                    </button>                    
+                </div>
+                <div class="nav-left d-flex justify-content-evenly align-items-center">
+                    <button class="fb-logo-btn">
+                        <a href="home.html">
+                            <img src="facebook.webp" alt="" class="fb-logo">
+                        </a>
+                    </button class="home-btn">
+
+                    <div class="search-input-div position-relative">
+                        <input type="text" name="" id="search-input1" placeholder="Search Facebook">
+                        <div class="search-input-dropdown position-absolute">
+                            <button>
+                                <i class="fa-solid fa-arrow-left pointer"></i>
+                            </button>
+                            <div class="d-flex justify-content-between align-items-center mt-2 r-edit">
+                                <div class="recent-text">Recent searches</div>
+                                <button class="edit-text">Edit</button>
+                            </div>
+
+
+                            <!-- Recent searches -->
+                            <button class="history-div d-flex justify-content-between align-items-center mt-2">
+                                <div class="d-flex align-items-center">
+                                    <div class="clock-div">
+                                        <span class="material-symbols-outlined clock">
+                                            schedule
+                                        </span>
+                                    </div>
+                                    <div class="text-div">
+                                        <div class="text1">MKBHD</div>
+                                        <div class="text2">Tech</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <img src="Marques_Brownlee_cropped.jpg" alt="" class="d-img">
+                                    </div>
+                                    <div class="x-div">
+                                        <span class="material-symbols-outlined x">
+                                            close
+                                        </span>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div>
+                            <input type="text" name="" id="search-input" placeholder="Search Facebook">
+                            <i class="icofont-search search-icon position-absolute"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation headers -->
+                <div class="middle-nav-parent">
+                    <div class="nav-middle d-flex justify-content-center w-100">
+                        <div class="home-btn-div position-relative">
+                            <button class="home-btn">
+                                <a href="home.html">
+                                    <i class="fa-solid fa-house home-icon"></i>
+                                </a>
+                            </button>
+                            <div class="home-tooltip position-absolute">Home</div>
+                            <div class="hr position-absolute"></div>
+                        </div>
+
+                        <div class="pad-btn-div position-relative">
+                            <button class="pad-btn">
+                                <a href="friends.html">
+                                    <i class="icofont-users-alt-3 pad-icon"></i>
+                                </a>
+                            </button>
+                            <div class="pad-tooltip position-absolute">Friends</div>
+                        </div>
+        
+                        <div class="video-btn-div position-relative">
+                            <button class="video-btn">
+                                <a href="watch.html">
+                                    <span class="material-symbols-outlined video-icon">
+                                        live_tv
+                                    </span>
+                                </a>
+                            </button>
+                            <div class="video-tooltip position-absolute">Watch</div>
+                        </div>
+        
+                        <div class="market-btn-div position-relative">
+                            <button class="market-btn">
+                                <a href="market.html">
+                                    <i class="fa-solid fa-shop market-icon"></i>
+                                </a>
+                            </button>
+                            <div class="market-tooltip position-absolute">Marketplace</div>
+                        </div>
+        
+                        <div class="group-btn-div position-relative">
+                            <button class="group-btn">
+                                <a href="group.html">
+                                    <span class="material-symbols-outlined group-icon">
+                                        diversity_3
+                                    </span>
+                                </a>
+                            </button>
+                            <div class="group-tooltip position-absolute">Groups</div>
+                        </div>
+        
+                        
+                    </div>
+                </div>
+
+                <!-- Right Navigation dropdowns--------------- -->
+                <div class="nav-right d-flex justify-content-evenly align-items-center">
+                    <div class="menu-btn-div position-relative">
+                        <div class="menu-tooltip-hover">
+                            <button class="menu-btn">
+                                <span class="material-symbols-outlined menu-icon">
+                                    apps
+                                </span>
+                            </button>
+                            <div class="menu-tooltip position-absolute">Menu</div>
+                        </div>
+                        <div class="menu-dropdown-box position-absolute">
+                            <div class="menu-h3">
+                                <h3>Menu</h3>
+                            </div>
+                            <div class="menu-drop-content d-flex">
+                                <div class="big-box-overflow w-100">
+                                    <div class="big-box">
+                                        <div class="menu-search-div position-relative">
+                                            <input class="menu-drop-input w-100" type="text" name="" id=""
+                                                placeholder="Search menu">
+                                            <i class="icofont-search position-absolute menudrop-search-icon"></i>
+                                        </div>
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Social</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="calendar-icon-upcoming-events-31.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Events</div>
+                                                        <div class="menuD-txt2">Organize or find events and other things to
+                                                            do online and nearby</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="users-icon-10.jpg" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Friends</div>
+                                                        <div class="menuD-txt2">Search for friends or people you may know
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="group.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Groups</div>
+                                                        <div class="menuD-txt2">Connect with people who share your interest
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="book.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Stories</div>
+                                                        <div class="menuD-txt2">See relevant stories from people and Pages
+                                                            you follow</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="recent.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">News Feed</div>
+                                                        <div class="menuD-txt2">See relevant posts from people and Pages you
+                                                            follow</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="favorite-icon-14.jpg" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Favorite</div>
+                                                        <div class="menuD-txt2">View posts by Favorites</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="recents.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Most Recent</div>
+                                                        <div class="menuD-txt2">See the most recent posts from your friends,
+                                                            groups, Pages and more.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="page.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Pages</div>
+                                                        <div class="menuD-txt2">Discover and connect with businesses on
+                                                            Facebook.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <hr class="ms-3 me-3">
+                                        </div>
+    
+                                        <!-- --------------------------------duplicate------------------------- -->
+    
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Entertainment</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="gaming.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Gaming Video</div>
+                                                        <div class="menuD-txt2">Watch and connect with your favorite games
+                                                            and streamers.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="Video-Game-Consoles-Background-PNG-Image.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Play Games</div>
+                                                        <div class="menuD-txt2">Play your favorite games.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="facebook-watch.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Watch</div>
+                                                        <div class="menuD-txt2">A video destination personalized to your
+                                                            interests and connections.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="live.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Live videos</div>
+                                                        <div class="menuD-txt2">Watch popular live videos from around the
+                                                            world.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <hr class="ms-3 me-3">
+                                        </div>
+    
+                                        <!-- ---------------duplicate-------------------- -->
+    
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Shopping</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="credit-cards-visa-mastercard-icon-png-3.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Orders and payments</div>
+                                                        <div class="menuD-txt2">A seamless, secure way to pay on the apps
+                                                            you already use.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="marketplace.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Marketplace</div>
+                                                        <div class="menuD-txt2">Buy and sell in your community.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <hr class="ms-3 me-3">
+                                        </div>
+                                        <!-- ---------------duplicate-------------------- -->
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Personal</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="credit-cards-visa-mastercard-icon-png-3.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Recent ad activity</div>
+                                                        <div class="menuD-txt2">See all the ads you interacted with on
+                                                            Facebook.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="history-icon-png--21.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Memories</div>
+                                                        <div class="menuD-txt2">Browse your old photos, videos and posts on
+                                                            Facebook.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="save+tag+tagged+photo+icon-1320184025431372796.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Saved</div>
+                                                        <div class="menuD-txt2">Find posts, photos and videos that you saved
+                                                            for later.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <hr class="ms-3 me-3">
+                                        </div>
+    
+                                        <!-- ---------------duplicate-------------------- -->
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Professional</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="fb-users.webp" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Ads Manager</div>
+                                                        <div class="menuD-txt2">Create, manage and track the performance of
+                                                            your ads.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="business-manager.jpg" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Business Manager</div>
+                                                        <div class="menuD-txt2">A better way to manage your business across
+                                                            Facebook and Instagram, all in one place</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <hr class="ms-3 me-3">
+                                        </div>
+    
+                                        <!-- ---------------duplicate-------------------- -->
+                                        <div class="social-div mt-3">
+                                            <h6 class="text-menu">Community Resources</h6>
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="credit-cards-visa-mastercard-icon-png-3.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Climate Science Center</div>
+                                                        <div class="menuD-txt2">Learn about climate change and its effects.
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="history-icon-png--21.png" alt="" class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Crisis response</div>
+                                                        <div class="menuD-txt2">Find the latest updates for recent crises
+                                                            happening around the world.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+    
+                                            <div class="btn-padding">
+                                                <button class="btn-menuD d-flex w-100 align-items-center">
+                                                    <div class="menuD-icon-div">
+                                                        <img src="save+tag+tagged+photo+icon-1320184025431372796.png" alt=""
+                                                            class="event-icon">
+                                                    </div>
+                                                    <div class="menuD-txt-div">
+                                                        <div class="menuD-txt1">Fundraisers</div>
+                                                        <div class="menuD-txt2">Donate and raise money for nonprofits and
+                                                            personal causes.</div>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="small-box w-50">
+                                    <h3 class="menu-create-txt">Create</h3>
+                                    <div class="small-box-div w-100">
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div">
+                                                <i class="fa-solid fa-pen-to-square"></i>
+                                            </div>
+                                            <div class="create-text-div">Post</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div2">
+                                                <i class="fa-solid fa-book-open"></i>
+                                            </div>
+                                            <div class="create-text-div">Story</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div2">
+                                                <i class="fa-solid fa-video"></i>
+                                            </div>
+                                            <div class="create-text-div">Room</div>
+                                        </button>
+    
+                                        <hr class="mt-2 mb-2 ms-2 me-2">
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div3">
+                                                <i class="icofont-flag"></i>
+                                            </div>
+                                            <div class="create-text-div">Page</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div3">
+                                                <i class="icofont-mega-phone"></i>
+                                            </div>
+                                            <div class="create-text-div">Ad</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div3">
+                                                <i class="icofont-ui-user-group"></i>
+                                            </div>
+                                            <div class="create-text-div">Group</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div3">
+                                                <i class="icofont-ui-calendar"></i>
+                                            </div>
+                                            <div class="create-text-div">Event</div>
+                                        </button>
+    
+                                        <button class="small-box-btn d-flex w-100 align-items-center">
+                                            <div class="create-icon-div3">
+                                                <i class="icofont-food-basket"></i>
+                                            </div>
+                                            <div class="create-text-div">Marketplace listing</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Top navigation Messenger -->
+                    <div class="messenger-btn-div position-relative">
+                        <div class="messenger-tooltip-hover">
+                            <button class="messenger-btn">
+                                <i class="fa-brands fa-facebook-messenger messenger-icon"></i>
+                            </button>
+                            <div class="messenger-tooltip position-absolute">Messenger</div>
+                        </div>
+                        <div class="messenger-dropdown position-absolute">
+                            <div class="messenger-overflow-div">
+                                <div class="messenger-chat-div">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="m-chat-text">
+                                            <h3>Chats</h3>
+                                        </div>
+                                        <div class="d-flex">
+                                            <button class="a">
+                                                <i class="fa-solid fa-ellipsis chat-dot-icon"></i>
+                                            </button>
+                                            <button class="a">
+                                                <i class="fa-solid fa-maximize chat-expand-icon"></i>
+                                            </button>
+                                            <button class="a">
+                                                <i class="fa-solid fa-video chat-create-icon"></i>
+                                            </button>
+                                            <button>
+                                                <i class="fa-solid fa-pen-to-square chat-msg-icon"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="chat-search-div position-relative">
+                                        <input class="menu-drop-input w-100" type="text" name="" id=""
+                                            placeholder="Search menu">
+                                        <i class="icofont-search position-absolute chatdrop-search-icon"></i>
+                                    </div>
+                                    <div class="d-flex mt-3 mb-3 align-items-center">
+                                        <div>
+                                            <button class="inbox-btn me-2">Inbox</button>
+                                        </div>
+                                        <div class="community-focus-div">
+                                            <button class="community-btn">Communities</button>
+                                            <div class="community-display position-absolute">
+                                                <div class="community-chat">
+                                                    <h4>Recommended chats</h4>
+                                                    <button
+                                                        class="community-chat-btn d-flex align-items-center justify-content-between w-100">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="com-icon-div">
+                                                                <i class="fa-solid fa-comment-dots chat-icon"></i>
+                                                            </div>
+                                                            <div class="com-text-div">
+                                                                <div class="com-text1">Naira Swap</div>
+                                                                <div class="com-text2">9ja Vent</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="com-text3">Join</div>
+                                                    </button>
+                                                    <button
+                                                        class="community-chat-btn d-flex align-items-center justify-content-between w-100">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="com-icon-div">
+                                                                <i class="fa-solid fa-hand-dots chat-icon1"></i>
+                                                                <!-- <i class="fa-solid fa-comment-dots chat-icon1"></i> -->
+    
+                                                            </div>
+                                                            <div class="com-text-div">
+                                                                <div class="com-text1">General chat</div>
+                                                                <div class="com-text2">9ja Vent</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="com-text3">Join</div>
+                                                    </button>
+                                                    <button
+                                                        class="community-chat-btn d-flex align-items-center justify-content-between w-100">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="com-icon-div">
+                                                                <i class="fa-solid fa-comment-dots chat-icon"></i>
+                                                            </div>
+                                                            <div class="com-text-div">
+                                                                <div class="com-text1">General chat</div>
+                                                                <div class="com-text2">(English) Language Teachers and...
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="com-text3">Join</div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Chats inbox -->
+                                    <div class="inbox-display">
+
+                                        <!-- chat -->
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p3.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Atilade</div>
+                                                        <div class="chatss">Just dey enjoy bro - 2d</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-circle-check read-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p2.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Temioluwa</div>
+                                                        <div class="chatss">Thanks gee- 4d</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-regular fa-circle-check delivered-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p2.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Love</div>
+                                                        <div class="chatss">resposiveness? - 1w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-circle-check read-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p3.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Mr Abbas</div>
+                                                        <div class="chatss">Thanks - 1w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-regular fa-circle-check delivered-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="pp.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Presh</div>
+                                                        <div class="chatss">leave me - 3w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-circle-check read-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p2.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Ayo</div>
+                                                        <div class="chatss">Thanks - 3w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-regular fa-circle-check delivered-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p4.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Kay</div>
+                                                        <div class="chatss">I don miss my guy - 3w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-circle-check read-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="p2.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Mr Kunle</div>
+                                                        <div class="chatss">Thanks - 3w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-regular fa-circle-check delivered-icon"></i>
+    
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="conversation-div">
+                                            <button
+                                                class="conversation-btn d-flex w-100 align-items-center justify-content-between position-relative">
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <img src="pp.JPG" alt="" class="chat-pix">
+                                                    </div>
+                                                    <div class="chat-conver-div">
+                                                        <div class="chat-name">Veli</div>
+                                                        <div class="chatss">Make we go gym - 4w</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-circle-check read-icon"></i>
+                                                </div>
+                                                <div class="position-absolute chat-option-div">
+                                                    <i class="fa-solid fa-ellipsis chat-option"></i>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="chat-footer">
+                                <a href="">See all in messenger</a>
+                            </div>
+                        </div>
+                        <!--end of messenger-dropdown  -->
+                    </div>
+
+                    <!-- notifications -->
+                    <div class="notification-btn-div position-relative">
+                        <div class="notification-tooltip-hover">
+                            <button class="notification-btn">
+                                <i class="fa-solid fa-bell notification-icon"></i>
+                            </button>
+                            <div class="notification-tooltip position-absolute">Notifications</div>
+                        </div>
+                        <div class="notification-dropdown-box position-absolute">
+                            <div class="notification-text-div">
+                                <div class="not-dot-div d-flex align-items-center justify-content-between">
+                                    <h4>Notifications</h4>
+                                    <button>
+                                        <i class="fa-solid fa-ellipsis notf-option"></i>
+                                    </button>
+                                </div>
+                                <div class="notf-btns-div d-flex align-items-center">
+                                    <button class="notf-all-text">All</button>
+                                    <button class="notf-unread-text">Unread</button>
+                                </div>
+                            </div>
+                            <div class="notf-msg-div w-100">
+                                <div class="new-link-div d-flex justify-content-between">
+                                    <h5>New</h5>
+                                    <a href="">See all</a>
+                                </div>
+                                <div class="notf-flex-btn-div">
+                                    <button class="notf-flex-btn d-flex w-100 justify-content-between position-relative">
+                                        <div class="d-flex align-items-center">
+                                            <div class="notf-img">
+                                                <img src="Marques_Brownlee_cropped.jpg" alt="" class="imggg">
+                                            </div>
+                                            <div class="notf-conver-div">
+                                                <div class="notf-text1">
+                                                    Desk Tour & Daily Tech Update 2023!
+                                                </div>
+                                                <div class="notf-text2">
+                                                    30 minutes ago
+                                                </div>
+                                            </div>
+                                            <div class="notf-indicator"></div>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis notf1-option position-absolute"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div class="notf-msg-div w-100">
+                                <div class="new-link-div">
+                                    <h5>Earlier</h5>
+                                </div>
+
+                                <div class="notf-flex-btn-div">
+                                    <button class="notf-flex-btn d-flex w-100 justify-content-between position-relative">
+                                        <div class="d-flex align-items-center">
+                                            <div class="notf-img">
+                                                <img src="Marques_Brownlee_cropped.jpg" alt="" class="imggg">
+                                            </div>
+                                            <div class="notf-conver-div">
+                                                <div class="notf-text1">
+                                                    What is Happening with Samsung's Camera?
+                                                </div>
+                                                <div class="notf-text2">
+                                                    about an hour ago
+                                                </div>
+                                            </div>
+                                            <div class="notf-indicator"></div>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis notf1-option position-absolute"></i>
+                                        </div>
+                                    </button>
+                                </div>
+
+
+                                <div class="notf-flex-btn-div">
+                                    <button class="notf-flex-btn d-flex w-100 justify-content-between position-relative">
+                                        <div class="d-flex align-items-center">
+                                            <div class="notf-img">
+                                                <img src="Marques_Brownlee_cropped.jpg" alt="" class="imggg">
+                                            </div>
+                                            <div class="notf-conver-div">
+                                                <div class="notf-text1">
+                                                    What is Happening with Samsung's Camera?
+                                                </div>
+                                                <div class="notf-text2">
+                                                    about an hour ago
+                                                </div>
+                                            </div>
+                                            <div class="notf-indicator"></div>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis notf1-option position-absolute"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of notification dropdown-->
+                    </div>
+
+
+                    <!-- Account and settings -->
+                    <div class="profile-btn-div position-relative">
+                        <div class="profile-tooltip-hover">
+                            <button class="profile-btn">
+                                <img src="pp.JPG" alt="" class="profile-img">
+                            </button>
+                            <div class="profile-tooltip position-absolute">Account</div>
+                        </div>
+                        <div class="profile-dropdown-box position-absolute">
+                            <div class="sub-dropdown">
+                                <button
+                                    class="profile-button-div d-flex align-items-center justify-content-between w-100 position-relative">
+                                    <div class="d-flex align-items-center">
+                                        <div class="prf-img-div">
+                                            <img src="pp.JPG" alt="" class="prf-img">
+                                        </div>
+                                        <div class="prf-name-div">Onaleye Abiola Paul</div>
+                                    </div>
+                                </button>
+                                <hr class="ms-3 me-3 mt-1 mb-1">
+                                <button class="profile-button-div d-flex align-items-center justify-content-between w-100">
+                                    <div class="prf-name-div1">See all profiles</div>
+                                    <div class="prf-50">4</div>
+                                </button>
+                            </div>
+                            <div class="padding-div">
+                                <button class="other-btns d-flex align-items-center justify-content-between w-100">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d1">
+                                            <i class="fa-solid fa-gear d1-icon"></i>
+                                        </div>
+                                        <div class="d2">Settings & privacy</div>
+                                    </div>
+                                    <div class="d3">
+                                        <i class="fa-solid fa-angle-right d3-icon"></i>
+                                    </div>
+                                </button>
+                                <button class="other-btns d-flex align-items-center justify-content-between w-100">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d1">
+                                            <i class="fa-solid fa-circle-question d1-icon"></i>
+                                        </div>
+                                        <div class="d2">Help & support</div>
+                                    </div>
+                                    <div class="d3">
+                                        <i class="fa-solid fa-angle-right d3-icon"></i>
+                                    </div>
+                                </button>
+                                <button class="other-btns d-flex align-items-center justify-content-between w-100">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d1">
+                                            <i class="fa-solid fa-moon d11-icon"></i>
+                                        </div>
+                                        <div class="d2">Display & accessibility</div>
+                                    </div>
+                                    <div class="d3">
+                                        <i class="fa-solid fa-angle-right d3-icon"></i>
+                                    </div>
+                                </button>
+                                <button class="other-btns d-flex align-items-center justify-content-between w-100">
+                                    <div class="d-flex align-items-center">
+                                        <div class="d1">
+                                            <i class="fa-solid fa-triangle-exclamation d1-icon"></i>
+                                        </div>
+                                        <div class="d2">Give feedback</div>
+                                    </div>
+                                </button>
+                                <button class="other-btns w-100">
+                                    <a class="d-flex align-items-center justify-content-between" href="index.html">
+                                        <div class="d-flex align-items-center">
+                                            <div class="d1">
+                                                <i class="fa-solid fa-right-from-bracket d1-icon"></i>
+                                            </div>
+                                            <div class="d2">Log Out</div>
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+                            <div class="fff d-flex flex-wrap w-100">
+                                <a class="ff" href="">Privacy ·</a>
+                                <a class="ff" href="">Terms ·</a>
+                                <a class="ff" href="">Advertising ·</a>
+                                <a class="ff" href="">Ad Choices ·</a>
+                                <a class="ff" href="">Cookies ·</a>
+                                <a class="ff" href="">More ·</a>
+                                <a class="ff" href="">Meta © 2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------end of dropdown styling for all button on the right nav---------------------------- -->
+            </div>
+            
+        </div>
+
+
+        <!-- Home left Navigation -->
+
+        <div class="fb-content">
+            <div class="d-flex justify-content-between">
+                <div class="left-content">
+                    <div class="left-container">
+                        <button class="my-profile-div">
+                            <a class="w-100 d-flex align-items-center" href="profile.html">
+                                <div><img src="pp.JPG" alt="" class="img"></div>
+                                <div class="l-text">Onaleye Abiola Paul</div>
+                            </a>
+                        </button>
+                        <button class="friends-div">
+                            <a class="w-100 d-flex align-items-center" href="friends.html">
+                                <div><img src="users-icon-10.jpg" alt="" class="img"></div>
+                                <div class="l-text">Find Friends</div>
+                            </a>
+                        </button>
+                        <button class="friends-div">
+                            <a class="w-100 d-flex align-items-center" href="gaming.html">
+                                <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                <div class="l-text">Play Games</div>
+                            </a>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="recents.png" alt="" class="imgS"></div>
+                            <div class="l-text">Most Recent</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="group.png" alt="" class="imgS"></div>
+                            <div class="l-text">Groups</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="marketplace.png" alt="" class="imgS"></div>
+                            <div class="l-text">Marketplace</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Watch</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Ad Center</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Ads Manager</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Business Manager</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Climate Science Center</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Crisis response</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Events</div>
+                        </button>
+                        
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Favorites</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Fundraisers</div>
+                        </button>
+                        <button class="left-section-div d-flex align-items-center">
+                            <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                            <div class="l-text">Gaming Video</div>
+                        </button>
+                        <div class="see-more-divP">
+                            <button class="left-seemore-div d-flex align-items-center">
+                                <div class="arrow-down-div"><i class="fa-solid fa-angle-down arrow-down"></i></div>
+                                <div class="l-text">See more</div>
+                            </button>
+
+                            <div class="see-more-div">
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Like videos</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Memories</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Messenger</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Messenger Kids</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Orders and payments</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Pages</div>
+                                </button>
+                                
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Recent ad activity</div>
+                                </button>
+                                <button class="left-section-div d-flex align-items-center">
+                                    <div><img src="facebook-watch.png" alt="" class="imgS"></div>
+                                    <div class="l-text">Saved</div>
+                                </button>
+                            </div>
+                            <div class="see-less-div">
+                                <button class="left-seeless-div d-flex align-items-center">
+                                    <div class="arrow-down-div"><i class="fa-solid fa-angle-up arrow-up"></i></div>
+                                    <div class="l-text">See less</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <hr class="mt-2 mb-2">
+
+                        
+                        <div class="left-footer-div d-flex flex-wrap mt-2 ms-2">
+                            <a href="" class="me-1 aa text-decoration-none">Privacy ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">Terms ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">Advertising ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">Ad Choices ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">Cookies ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">More ·</a>
+                            <a href="" class="me-1 aa text-decoration-none">Meta © 2023</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-content">
+                    <div class="actual-middle-width">
+                        <div class="stories-reel-box mt-4">
+                            <div class="stories-reels-div">
+                                <div class="d-flex align-items-center justify-content-evenly">
+                                    <div class="first-div w-100">
+                                        <button class="stories-btn d-flex align-items justify-content-center">
+                                            <div><i class="fa-solid fa-book-open book"></i></div>
+                                            <div class="stories-text">Stories</div>
+                                        </button>
+                                        <div class="lineS w-100"></div>
+                                    </div>
+                                    <div class="second-div w-100">
+                                        <button class="reels-btn d-flex align-items-center justify-content-center">
+                                            <div><i class="icofont-ui-video-play movie"></i></div>
+                                            <div class="reels-text">Reels</div>
+                                        </button>
+                                        <div class="lineR w-100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="mt-0">
+
+                            <!-- Stories -->
+                            <div class="overflow-stories-div d-flex">
+                                <button class="status position-relative">
+                                    <div class="prof-img-div">
+                                        <img src="pp.JPG" alt="" class="prof-img" >
+                                    </div>
+                                    <div class="create-story">Create Story</div>
+                                    <div class="plus-div position-absolute"><i
+                                            class="fa-solid fa-circle-plus p-icon"></i>
+                                    </div>
+                                </button>
+
+                                <button class="status1 position-relative">
+                                    <img src="p2.JPG" alt=""
+                                        class="st-imgs">
+                                    <div class="abs-img-div position-absolute"><img
+                                            src="photo-1542458579-bc6f69b5ce6b.jfif" alt="" class="abs-img"></div>
+                                    <div class="story-text position-absolute">Presh</div>
+                                </button>
+
+                                <button class="status1 position-relative">
+                                    <img src="p3.JPG" alt="" class="st-imgs">
+                                    <div class="abs-img-div position-absolute"><img src="new.jpg" alt=""
+                                            class="abs-img">
+                                    </div>
+                                    <div class="story-text position-absolute">Oke Atilade</div>
+                                </button>
+
+                                <button class="status1 position-relative">
+                                    <img src="p5.JPG"
+                                        alt="" class="st-imgs">
+                                    <div class="abs-img-div position-absolute"><img src="tiwa-savage.jpg" alt=""
+                                            class="abs-img"></div>
+                                    <div class="story-text position-absolute">Temiloluwa</div>
+                                </button>
+
+                                <button class="status1 position-relative">
+                                    <img src="p3.JPG" alt="" class="st-imgs">
+                                    <div class="abs-img-div position-absolute"><img
+                                            src="portrait-white-man-isolated_53876-40306.avif" alt="" class="abs-img">
+                                    </div>
+                                    <div class="story-text position-absolute">Biyaya</div>
+                                </button>
+
+                            
+                                <button class="status1 position-relative">
+                                    <img src="p4.JPG"
+                                        alt="" class="st-imgs">
+                                    <div class="abs-img-div position-absolute"><img
+                                            src="photo-1542458579-bc6f69b5ce6b.jfif" alt="" class="abs-img"></div>
+                                    <div class="story-text position-absolute">Love</div>
+                                </button>
+
+                            </div>
+                        </div>
+
+
+                        <div class="on-your-mind-box">
+                            <div class="d-flex align-items-center">
+                                <button class="me-2">
+                                    <img src="pp.JPG" alt="" class="profile-img">
+                                </button>
+                                <button class="p-input-div">
+                                    What's on your mind, Abiola?
+                                </button>
+                            </div>
+                            <hr class="mb-2 mt-3">
+                            <div class="cool d-flex align-items-center justify-content-between">
+                                <button class="btn11 w-100 d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <i class="fa-solid fa-video me-2 video11-icon"></i>
+                                    </div>
+                                    <div class="grey">Live video</div>
+                                </button>
+                                <button class="btn11 w-100 d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <i class="fa-solid fa-photo-film me-2 photo-icon"></i>
+                                    </div>
+                                    <div class="grey">Photo/Video</div>
+                                </button>
+                                <button class="btn11 w-100 d-flex align-items justify-content">
+                                    <div>
+                                        <i class="fa-solid fa-face-smile me-2 smiley-icon"></i>
+                                    </div>
+                                    <div class="grey">Feeling/activity</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="fb-post-box mt-3">
+                            <div class="fb-post">
+                                <div class="post-flex d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <button class="post-img-div position-relative">
+                                            <img src="p3.JPG" alt="" class="post-img">
+                                        </button>
+                                        <div class="block-post-text-div">
+                                            <div class="post-text-div d-flex align-items-center">
+                                                <div class="post-text1 position-relative">
+                                                    <a class="post-text1-link" href="">Dezney</a>
+                                                    <div class="post-hover-dropdown position-absolute">
+                                                        <div class="dropdown-content-div d-flex align-items-center">
+                                                            <div class="macaroni-div">
+                                                                <img src="p3.JPG" alt="" class="macaroni-profile">
+                                                            </div>
+                                                            <div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="dropdown-text1">Dezney</div>
+                                                                    <div>
+                                                                        <span
+                                                                            class="material-symbols-outlined verify-icon">
+                                                                            verified
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="z">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-circle-info icon"></i>
+                                                                        </div>
+                                                                        <div>Page - Artist</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center icon">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-user icon"></i>
+                                                                        </div>
+                                                                        <div>Thespian!</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-globe icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="macaroni-link"
+                                                                                href="">dezneytv.com</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class=d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-newspaper icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="followers-link" href="">1.9M
+                                                                                Followers</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-sec d-flex">
+                                                            <button
+                                                                class="btnA w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="icofont-youtube-play iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Watch Now</div>
+                                                            </button>
+                                                            <button
+                                                                class="btnB w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-newspaper iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Following</div>
+                                                            </button>
+                                                            <button class="btnC w-50 d-flex justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="material-symbols-outlined verify-icon">
+                                                        verified
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="post-text2">
+                                                    <a class="post-text2-link" href="">1h</a>
+                                                </div>
+                                                <div><i class="fa-solid fa-earth-americas world-icon"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis dot"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fa-solid fa-xmark x-icon"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="post-text3 mt-2">Valentine Surprise 😂</div>
+                            </div>
+                            <div><video controls
+                                    src="-1745298792.mp4"
+                                    class="post-vid"></video></div>
+                            <div class="comment-div-box">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="like-section">👍😆 12K</div>
+                                    <div class="d-flex">
+                                        <div class="comment-div d-flex">
+                                            <div class="comment-text">1.4K</div>
+                                            <div>
+                                                <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="share-div d-flex">
+                                            <div class="share-text">233</div>
+                                            <div>
+                                                <i class="fa-solid fa-share share-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-2 mb-1">
+                                <div class="d-flex justify-content-evenly align-items-center">
+                                    <button class="like1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-solid fa-thumbs-up like-icon"></i>
+                                        </div>
+                                        <div class="like1-text">Like</div>
+                                    </button>
+                                    <button class="comment1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                        </div>
+                                        <div class="comment1-text">Comment</div>
+                                    </button>
+                                    <button class="share1-div w-100 me-1 d-flex justify-content-center">
+                                        <div><i class="fa-solid fa-share share-icon"></i></div>
+                                        <div class="share1-text">Share</div>
+                                    </button>
+                                    <button class="pro-div w-50 d-flex justify-content-center">
+                                        <div>
+                                            <img src="pp.JPG" alt="" class="profile-img1">
+                                        </div>
+                                        <div><i class="icofont-caret-down"></i></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="fb-post-box mt-3">
+                            <div class="fb-post">
+                                <div class="post-flex d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <button class="post-img-div position-relative">
+                                            <img src="p4.JPG" alt="" class="post-img">
+                                        </button>
+                                        <div class="block-post-text-div">
+                                            <div class="post-text-div d-flex align-items-center">
+                                                <div class="post-text1 position-relative">
+                                                    <a class="post-text1-link" href="">Supercars Of Nigeria</a>
+                                                    <div class="post-hover-dropdown position-absolute">
+                                                        <div class="dropdown-content-div d-flex align-items-center">
+                                                            <div class="macaroni-div">
+                                                                <img src="p4.JPG" alt="" class="macaroni-profile">
+                                                            </div>
+                                                            <div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="dropdown-text1">Supercars of Nigeria</div>
+                                                                    <div>
+                                                                        <span
+                                                                            class="material-symbols-outlined verify-icon">
+                                                                            verified
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="z">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-circle-info icon"></i>
+                                                                        </div>
+                                                                        <div>Page - Artist</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center icon">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-user icon"></i>
+                                                                        </div>
+                                                                        <div>Thespian!</div>
+                                                                    </div>
+                                                                    <!-- <div class="d-flex align-items">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-globe icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="macaroni-link"
+                                                                                href="">mrmacaronitv.com</a>
+                                                                        </div>
+                                                                    </div> -->
+                                                                    <div class=d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-newspaper icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="followers-link" href="">604k
+                                                                                Followers</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-sec d-flex">
+                                                            <button
+                                                                class="btnA w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="icofont-youtube-play iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Watch Now</div>
+                                                            </button>
+                                                            <button
+                                                                class="btnB w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-newspaper iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Following</div>
+                                                            </button>
+                                                            <button class="btnC w-50 d-flex justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="material-symbols-outlined verify-icon">
+                                                        verified
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="post-text2">
+                                                    <a class="post-text2-link" href="">1h</a>
+                                                </div>
+                                                <div><i class="fa-solid fa-earth-americas world-icon"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis dot"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fa-solid fa-xmark x-icon"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="post-text3 mt-2">Old school meets new school #Benz</div>
+                            </div>
+                            <div>
+                                <img src="supercarsofnigeria_20210605_002851_0.jpg" alt="" class="post-vid">
+                            </div>
+                            <div class="comment-div-box">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="like-section">👍😆 25K</div>
+                                    <div class="d-flex">
+                                        <div class="comment-div d-flex">
+                                            <div class="comment-text">1.2K</div>
+                                            <div>
+                                                <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="share-div d-flex">
+                                            <div class="share-text">683</div>
+                                            <div>
+                                                <i class="fa-solid fa-share share-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-2 mb-1">
+                                <div class="d-flex justify-content-evenly align-items-center">
+                                    <button class="like1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-solid fa-thumbs-up like-icon"></i>
+                                        </div>
+                                        <div class="like1-text">Like</div>
+                                    </button>
+                                    <button class="comment1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                        </div>
+                                        <div class="comment1-text">Comment</div>
+                                    </button>
+                                    <button class="share1-div w-100 me-1 d-flex justify-content-center">
+                                        <div><i class="fa-solid fa-share share-icon"></i></div>
+                                        <div class="share1-text">Share</div>
+                                    </button>
+                                    <button class="pro-div w-50 d-flex justify-content-center">
+                                        <div>
+                                            <img src="pp.JPG" alt="" class="profile-img1">
+                                        </div>
+                                        <div><i class="icofont-caret-down"></i></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="fb-post-box mt-3">
+                            <div class="fb-post">
+                                <div class="post-flex d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <button class="post-img-div position-relative">
+                                            <img src="gymshark_20211102_092230_0.jpg" alt="" class="post-img">
+                                        </button>
+                                        <div class="block-post-text-div">
+                                            <div class="post-text-div d-flex align-items-center">
+                                                <div class="post-text1 position-relative">
+                                                    <a class="post-text1-link" href="">CBUM</a>
+                                                    <div class="post-hover-dropdown position-absolute">
+                                                        <div class="dropdown-content-div d-flex align-items-center">
+                                                            <div class="macaroni-div">
+                                                                <img src="gymshark_20211102_092230_0.jpg" alt="" class="macaroni-profile">
+                                                            </div>
+                                                            <div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="dropdown-text1">Chris Bumstead</div>
+                                                                    <div>
+                                                                        <span
+                                                                            class="material-symbols-outlined verify-icon">
+                                                                            verified
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="z">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-circle-info icon"></i>
+                                                                        </div>
+                                                                        <div>Page - Bodybuilder</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center icon">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-user icon"></i>
+                                                                        </div>
+                                                                        <div>Thespian!</div>
+                                                                    </div>
+                                                                    <!-- <div class="d-flex align-items">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-globe icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="macaroni-link"
+                                                                                href="">mrmacaronitv.com</a>
+                                                                        </div>
+                                                                    </div> -->
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-newspaper icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="followers-link" href="">10.6M
+                                                                                Followers</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-sec d-flex">
+                                                            <button
+                                                                class="btnA w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="icofont-youtube-play iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Watch Now</div>
+                                                            </button>
+                                                            <button
+                                                                class="btnB w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-newspaper iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Following</div>
+                                                            </button>
+                                                            <button class="btnC w-50 d-flex justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="material-symbols-outlined verify-icon">
+                                                        verified
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="post-text2">
+                                                    <a class="post-text2-link" href="">2h</a>
+                                                </div>
+                                                <div><i class="fa-solid fa-earth-americas world-icon"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis dot"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fa-solid fa-xmark x-icon"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="post-text3 mt-2">Don't be a skinny b**tc*</div>
+                            </div>
+                            <div>
+                                <img src="gymshark_20211102_092230_0.jpg" alt="" class="post-vid">
+                            </div>
+                            <div class="comment-div-box">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="like-section">👍🦍 75K</div>
+                                    <div class="d-flex">
+                                        <div class="comment-div d-flex">
+                                            <div class="comment-text">3.2K</div>
+                                            <div>
+                                                <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="share-div d-flex">
+                                            <div class="share-text">1293</div>
+                                            <div>
+                                                <i class="fa-solid fa-share share-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-2 mb-1">
+                                <div class="d-flex justify-content-evenly align-items-center">
+                                    <button class="like1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-solid fa-thumbs-up like-icon"></i>
+                                        </div>
+                                        <div class="like1-text">Like</div>
+                                    </button>
+                                    <button class="comment1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                        </div>
+                                        <div class="comment1-text">Comment</div>
+                                    </button>
+                                    <button class="share1-div w-100 me-1 d-flex justify-content-center">
+                                        <div><i class="fa-solid fa-share share-icon"></i></div>
+                                        <div class="share1-text">Share</div>
+                                    </button>
+                                    <button class="pro-div w-50 d-flex justify-content-center">
+                                        <div>
+                                            <img src="pp.JPG" alt="" class="profile-img1">
+                                        </div>
+                                        <div><i class="icofont-caret-down"></i></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="fb-post-box mt-3">
+                            <div class="fb-post">
+                                <div class="post-flex d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <button class="post-img-div position-relative">
+                                            <img src="macaroni.jpg" alt="" class="post-img">
+                                        </button>
+                                        <div class="block-post-text-div">
+                                            <div class="post-text-div d-flex align-items-center">
+                                                <div class="post-text1 position-relative">
+                                                    <a class="post-text1-link" href="">Mr Macaroni</a>
+                                                    <div class="post-hover-dropdown position-absolute">
+                                                        <div class="dropdown-content-div d-flex align-items-center">
+                                                            <div class="macaroni-div">
+                                                                <img src="macaroni.jpg" alt="" class="macaroni-profile">
+                                                            </div>
+                                                            <div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="dropdown-text1">Mr Macaroni</div>
+                                                                    <div>
+                                                                        <span
+                                                                            class="material-symbols-outlined verify-icon">
+                                                                            verified
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="z">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-circle-info icon"></i>
+                                                                        </div>
+                                                                        <div>Page - Artist</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center icon">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-user icon"></i>
+                                                                        </div>
+                                                                        <div>Thespian!</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-globe icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="macaroni-link"
+                                                                                href="">mrmacaronitv.com</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class=d-flex align-items-center">
+                                                                        <div>
+                                                                            <i class="fa-solid fa-newspaper icon"></i>
+                                                                        </div>
+                                                                        <div>
+                                                                            <a class="followers-link" href="">3.6M
+                                                                                Followers</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-sec d-flex">
+                                                            <button
+                                                                class="btnA w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="icofont-youtube-play iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Watch Now</div>
+                                                            </button>
+                                                            <button
+                                                                class="btnB w-100 d-flex align-items-center justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-newspaper iconN"></i>
+                                                                </div>
+                                                                <div class="btn-text">Following</div>
+                                                            </button>
+                                                            <button class="btnC w-50 d-flex justify-content-center">
+                                                                <div>
+                                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="material-symbols-outlined verify-icon">
+                                                        verified
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="post-text2">
+                                                    <a class="post-text2-link" href="">1h</a>
+                                                </div>
+                                                <div><i class="fa-solid fa-earth-americas world-icon"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button>
+                                            <i class="fa-solid fa-ellipsis dot"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fa-solid fa-xmark x-icon"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="post-text3 mt-2">Bolanle Ninalowo x Mr Macaroni 😂</div>
+                            </div>
+                            <div>
+                                <img src="maxresdefault.jpg" alt="" class="post-vid">
+                            </div>
+                            <div class="comment-div-box">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="like-section">👍😆 25K</div>
+                                    <div class="d-flex">
+                                        <div class="comment-div d-flex">
+                                            <div class="comment-text">1.2K</div>
+                                            <div>
+                                                <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="share-div d-flex">
+                                            <div class="share-text">683</div>
+                                            <div>
+                                                <i class="fa-solid fa-share share-icon"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="mt-2 mb-1">
+                                <div class="d-flex justify-content-evenly align-items-center">
+                                    <button class="like1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-solid fa-thumbs-up like-icon"></i>
+                                        </div>
+                                        <div class="like1-text">Like</div>
+                                    </button>
+                                    <button class="comment1-div w-100 me-1 d-flex justify-content-center">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-comment comment-icon"></i>
+                                        </div>
+                                        <div class="comment1-text">Comment</div>
+                                    </button>
+                                    <button class="share1-div w-100 me-1 d-flex justify-content-center">
+                                        <div><i class="fa-solid fa-share share-icon"></i></div>
+                                        <div class="share1-text">Share</div>
+                                    </button>
+                                    <button class="pro-div w-50 d-flex justify-content-center">
+                                        <div>
+                                            <img src="pp.JPG" alt="" class="profile-img1">
+                                        </div>
+                                        <div><i class="icofont-caret-down"></i></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right home content -->
+                <div class="right-content">
+                    <div class="right-container">
+                        <!-- <div class="sponsored-text">Sponsored</div>
+                        <button class="right-section-btn d-flex align-items-center position-relative">
+                            <div><img src="grammerly.png" alt="" class="right-img"></div>
+                            <div class="rtext-div">
+                                <div class="r-text1">Build your work reputation with better writing</div>
+                                <div class="r-text2">grammarly.com</div>
+                            </div>
+                            <div class="dots position-absolute"><i class="fa-solid fa-ellipsis"></i></div>
+                        </button>
+                        <button class="right-section-btn d-flex align-items-center position-relative">
+                            <div><img src="fintech.jfif" alt="" class="right-img"></div>
+                            <div class="rtext-div">
+                                <div class="r-text1">Innovate with FinTech</div>
+                                <div class="r-text2">harvardx-<br>onlinecourses.getsmarte...</div>
+                            </div>
+                            <div class="dots position-absolute"><i class="fa-solid fa-ellipsis"></i></div>
+                        </button>
+
+                        <div class="inner-right-div">
+                            <hr class="mt-2">
+                        </div>
+
+                        <div class="page-profile-div d-flex justify-content-between align-items-center mb-1">
+                            <div class="textt">Your Pages and profiles</div>
+                            <div class="dot2"><i class="fa-solid fa-ellipsis"></i></div>
+                        </div>
+                        <button class="employment-div d-flex align-items-center">
+                            <div><img src="job111.png" alt="" class="job11"></div>
+                            <div class="R-text">Latest Employment Offers</div>
+                        </button>
+                        <button class="btnR d-flex align-items-center">
+                            <div class="icon-div"><span class="material-symbols-outlined icons">
+                                    forum
+                                </span></div>
+                            <div class="t-text">20 Messages</div>
+                        </button>
+                        <button class="btnR d-flex align-items-center">
+                            <div class="icon-div"><i class="fa-solid fa-bell"></i></div>
+                            <div class="t-text">20+ Notifications</div>
+                        </button>
+                        <button class="btnR d-flex align-items-center">
+                            <div class="icon-div"><span class="material-symbols-outlined">
+                                    sensor_occupied
+                                </span></div>
+                            <div class="t-text">Switch into Page</div>
+                        </button>
+                        <button class="btnR d-flex align-items-center">
+                            <div class="icon-div"><span class="material-symbols-outlined">
+                                    campaign
+                                </span></div>
+                            <div class="t-text">Create promotion</div>
+                        </button>
+
+                        <div class="inner-right-div">
+                            <hr class="mt-2">
+                        </div>
+
+                        <div class="page-profile-div mb-1">
+                            <div class="textt">Birthdays</div>
+                        </div>
+                        <button class="employment-div d-flex align-items-center">
+                            <div><img src="gift.png" alt="" class="job11"></div>
+                            <div class="R-text">Taofeek Badru and 5 others have birthdays today.</div>
+                        </button>
+
+                        <div class="inner-right-div">
+                            <hr class="mt-2">
+                        </div>
+
+                        <div class="contact-div d-flex justify-content-between align-items-center mb-1">
+                            <div class="textt">Contacts</div>
+                            <div class="d-flex align-items-center">
+                                <div class="vid">
+                                    <i class="fa-solid fa-video"></i>
+                                </div>
+                                <div class="search">
+                                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                </div>
+                                <div class="dt">
+                                    <i class="fa-solid fa-ellipsis dt-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Mustapha Adetayo</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Nafisat Lasisi</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Soliu Matemilola</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Adetunji Muraina</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Gideon Oluwasola Olanrewaju</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">SenatorHardeyhargbo Khennhandsome Heedreez Haryourfhe</div>
+                            <div class="onlineP position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Ayandeji Banji Muhammed</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Alabi Mariam Abiodun Ore-Ofe</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Badirat Olateju</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Ojeleye Sola Emmanuel</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Adebayo Julius</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><img src="istockphoto.jpg" alt="" class="p-img"></div>
+                            <div class="R-text">Eneth Africrem</div>
+                            <div class="online position-absolute"></div>
+                        </button>
+
+                        <div class="inner-right-div">
+                            <hr class="mt-2">
+                        </div> -->
+
+                        <div class="contact-div mb-1">
+                            <div class="textt">Group conversations</div>
+                        </div>
+                        <button class="employment-div d-flex align-items-center position-relative">
+                            <div><i class="fa-solid fa-plus plus"></i></div>
+                            <div class="R-text">Create new group</div>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-msg-fixed-div position-fixed d-flex align-items-center justify-content-center">
+            <button class="c-msg-div">
+                <i class="fa-solid fa-pen-to-square new-msg"></i>
+                <div class="c-msg-tooltip position-absolute">New message</div>
+                <div class="msg-box-div position-absolute">
+                    <div class="m-3">
+                        <div class="new-msg-div d-flex align-items-center justify-content-between">
+                            <div class="new-msg-text">New message</div>
+                            <div>
+                                <i class="fa-solid fa-xmark x-msg"></i>
+                            </div>
+                        </div>
+                        <div class="to">To:
+                            <input class="input-to" type="text" name="" id="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="suggest-text w-50">Suggested</div>
+                    <div class="hr1 w-50"></div>
+                </div>
+            </button>
+            <div class="dt-icon1-div position-absolute">
+                <div class="dot-option">
+                    <button>
+                        <i class="fa-solid fa-ellipsis dt-icon1"></i>
+                    </button>
+                    <div class="dt-icon-dropup position-absolute">
+                        <button class="drp-text-div d-flex align-items-center w-100">
+                            <div>
+                                <i class="icofont-close-circled circle-x"></i>
+                            </div>
+                            <div class="dropup-txt">Close all chats</div>
+                        </button>
+                        <button class=" drp-text-div2 d-flex align-items-center w-100">
+                            <div>
+                                <span class="material-symbols-outlined circle-down">
+                                    expand_circle_down
+                                </span>
+                            </div>
+                            <div class="dropup-txt">Minimize open chats</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
