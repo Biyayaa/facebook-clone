@@ -1063,7 +1063,7 @@ a{
 
 /* -------------------------left content---------------------------------- */
 .left-content {
-    width: 305px;
+    width: 350px;
     height: 100vh;
     background-color: rgb(24, 25, 26);
     overflow: auto;
@@ -2014,17 +2014,6 @@ a{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .left-content:hover::-webkit-scrollbar-track,
 .right-content:hover::-webkit-scrollbar-track {
     /* Track */
@@ -2051,7 +2040,7 @@ a{
 
 
 
-@media (max-width: 1115px) {
+/* @media (max-width: 1115px) {
     #search-input {
         width: 30px;
         border-radius: 100px;
@@ -2090,4 +2079,4 @@ a{
     .middle-content{
         width: 80%;
     }
-}
+} */
