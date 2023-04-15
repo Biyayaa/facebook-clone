@@ -15,6 +15,7 @@ button {
     width: 100%;
     height: 100vh;
     position: fixed;
+    /* top: -60px; */
 }
 
 .nav-bar {
@@ -1067,10 +1068,15 @@ a{
     background-color: rgb(24, 25, 26);
     overflow: auto;
     padding-bottom: 55px;
+    margin-left: 25px;
 }
 
 .left-container {
     padding: 15px 0 0 10px;
+}
+
+.sub-dropdown a{
+    text-decoration: none;
 }
 
 .my-profile-div,
@@ -1546,7 +1552,9 @@ a{
 
 /* -------------------------------Middle content styling--------------------------- */
 .middle-content {
-    width: 660px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 100vh;
     background-color: rgb(24,25,26);
     overflow: auto;
@@ -1555,7 +1563,7 @@ a{
 }
 
 .actual-middle-width{
-    width: 530px;
+    width: 60%;
     background-color: rgb(24,25,26);
 }
 
@@ -2075,5 +2083,11 @@ a{
 @media (max-width: 899px) {
     .right-content{
         display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .middle-content{
+        width: 80%;
     }
 }
